@@ -29,7 +29,12 @@ class GameViewController: UIViewController {
             
             view.showsFPS = true
             view.showsNodeCount = true
+            
+
         }
+        
+        
+
     }
 
     override var shouldAutorotate: Bool {
@@ -46,5 +51,8 @@ class GameViewController: UIViewController {
 
     override var prefersStatusBarHidden: Bool {
         return true
+    }
+    @IBAction func showAlert() {
+        print("Hello")
     }
 }
