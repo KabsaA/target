@@ -61,14 +61,6 @@ class GameViewController: UIViewController {
         
         present(alert, animated: true, completion: nil)
     }
-    @IBAction func knockKnock() {
-         let alert = UIAlertController(title: "New Title!", message: "Attempting challenge", preferredStyle: .alert)
-         
-         let action = UIAlertAction(title: "Challenge", style: .default, handler: nil)
-         
-         alert.addAction(action)
-         
-         present(alert, animated: true, completion: nil)
-     }
+
 }
 
