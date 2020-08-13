@@ -23,6 +23,14 @@
                                     <action selector="showAlert" destination="BV1-FR-VrT" eventType="touchUpInside" id="eC1-GO-ero"/>
                                 </connections>
                             </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pcy-dn-Vbk">
+                                <rect key="frame" x="291" y="100" width="86" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="KnockKnock"/>
+                                <connections>
+                                    <action selector="knockKnock" destination="BV1-FR-VrT" eventType="touchUpInside" id="K15-SC-5UR"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
                         <viewLayoutGuide key="safeArea" id="4qk-I5-YsI"/>
